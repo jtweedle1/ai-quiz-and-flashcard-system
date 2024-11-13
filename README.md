@@ -42,6 +42,31 @@ The primary goal of this project is to:
 - **Testing**: ExUnit for backend tests, Cypress for end-to-end tests.
 - **Deployment**: Fly.io or Heroku for hosting the application.
 
+## **Tech Stack Justifications**
+
+### **Backend**
+#### **Chosen Technology: Elixir with Phoenix Framework**
+Elixir is chosen for its scalability, fault tolerance, and concurrency capabilities, which are critical for handling real-time features and multiple user requests. The Phoenix Framework simplifies building APIs and provides tools like LiveView for reactive UIs, reducing the need for a separate frontend framework.
+
+### **Frontend**
+#### **Chosen Technology: Phoenix LiveView**
+Phoenix LiveView enables real-time UI updates directly on the backend, eliminating the need for a separate frontend framework. This reduces development complexity while maintaining responsiveness.
+
+### **Database**
+#### **Chosen Technology: PostgreSQL**
+PostgreSQL is selected for its robust support for relational data, ACID compliance, and advanced features like JSON fields, which are ideal for storing unstructured AI-generated content.
+
+### **AI/ML Integration**
+#### **Chosen Technology: OpenAI API**
+The OpenAI API provides pre-trained models for natural language processing, which significantly reduces the complexity of implementing quiz and flashcard generation. It delivers high-quality results with minimal setup.
+
+### **Hosting**
+#### **Chosen Technology: Fly.io**
+Fly.io is optimized for deploying Elixir applications and offers developer-friendly tools for global scalability with low latency. It’s cost-effective for small-to-medium-sized projects.
+
+This tech stack is selected to ensure the application is scalable, responsive, and easy to develop while maintaining a balance between performance and simplicity.
+
+
 ## **How to Run the Project**
 > Note: This section will be updated as the project progresses.
 
