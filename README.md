@@ -52,4 +52,44 @@ The primary goal of this project is to:
 2. Install dependencies:
     ```bash
     mix deps.get
-4. 
+4. Set up the database:
+   ```bash
+   mix ecto.create
+   mix ecto.migrate
+5. Open your browser and navigate to http://localhost:4000.
+
+
+## **Learning Outcomes**
+By the end of this project, I aim to:
+- Understand how to use external APIs for AI/ML tasks.
+- Build real-time features in Elixir using **Phoenix Channels** and **LiveView**.
+- Implement basic ML concepts (e.g., spaced repetition, data analysis).
+- Gain hands-on experience in designing and deploying full-stack applications.
+
+## **Project Roadmap**
+### **Phase I: Planning and Setup**
+- Set up the development environment.
+- Test integration with AI APIs (e.g., OpenAI).
+- Design initial database schema and wireframes.
+
+### **Phase II: MVP Development**
+- Implement file upload and parsing.
+- Generate quizzes and flashcards using AI.
+- Create a simple frontend for quiz and flashcard interactions.
+
+### **Phase III: Advanced Features**
+- Add spaced repetition for flashcards.
+- Integrate adaptive quiz difficulty.
+- Build a user-friendly dashboard for tracking progress.
+
+### **Phase IV: Testing and Deployment**
+- Write unit and integration tests.
+- Deploy the app to a live environment.
+- Collect user feedback for improvements.
+
+## **Contributing**
+This is a personal learning project and is not open for contributions at this time. However, feedback and suggestions are always welcome!
+
+## **License**
+This project is licensed under the [MIT License](LICENSE).
+
