@@ -49,4 +49,7 @@ The primary goal of this project is to:
    ```bash
    git clone https://github.com/yourusername/quiz-flashcard-ai.git
    cd quiz-flashcard-ai
-2. 
+2. Install dependencies:
+    ```bash
+    mix deps.get
+4. 
