@@ -52,11 +52,14 @@ The primary goal of this project is to:
 2. Install dependencies:
     ```bash
     mix deps.get
-4. Set up the database:
+3. Set up the database:
    ```bash
    mix ecto.create
    mix ecto.migrate
-5. Open your browser and navigate to http://localhost:4000.
+4. Start the Phoenix server:
+   ```bash
+   mix phx.server
+6. Open your browser and navigate to http://localhost:4000.
 
 
 ## **Learning Outcomes**
