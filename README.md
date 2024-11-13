@@ -1,7 +1,7 @@
 # **AI-Powered Adaptive Quiz and Flashcard System**
 
 ## **Overview**
-This project is a personal endeavor to learn the basics of **AI/ML implementation** by creating a practical and educational application. The app allows users to upload text-based content (e.g., textbooks, notes, or articles) to generate quizzes and flashcards automatically. It also incorporates adaptive learning features, such as spaced repetition for flashcards and dynamic quiz difficulty adjustment.
+This project is a personal endeavor to learn the programming language **Elixir** and the basics of **AI/ML implementation** by creating a practical and educational application. The app allows users to upload text-based content (e.g., textbooks, notes, or articles) to generate quizzes and flashcards automatically. It also incorporates adaptive learning features, such as spaced repetition for flashcards and dynamic quiz difficulty adjustment.
 
 ## **Goals**
 The primary goal of this project is to:
